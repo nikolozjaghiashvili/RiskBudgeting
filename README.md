@@ -8,6 +8,10 @@ sensitivity (i.e. Duration) of the portfolio to changes in each point (i.e. Key 
 analysis, key rates are reduced to three factors. These factors explain 99% of yield curve movement and closely resemble the level, slope, and 
 curvature of a yield curve. Users are then able to view the sensitivity of the portfolio and simulated strategies to given principal components.
 
+Using three principal components over the traditional key rates yields several benefits. First, multiple key rates are reduced to three orthogonal 
+factors, which can be treated independently. Second, measures like key rate duration of fixed-income security can be easily transformed into principal 
+component duration, by multiplying a vector of key rate durations by factor loading. 
+
 R Shiny package allows my team to use the application without any prior programming knowledge. While the traditional Bloomberg interface has the 
 option of viewing key rate duration, my application has several advantages. First, the application is significantly faster at simulating new 
 strategies compared to Bloomberg's PORT. Second, the addition of principal component duration (i.e. level, slope, and curvature sensitivity) 
