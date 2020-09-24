@@ -16,3 +16,5 @@ R Shiny package allows my team to use the application without any prior programm
 option of viewing key rate duration, my application has several advantages. First, the application is significantly faster at simulating new 
 strategies compared to Bloomberg's PORT. Second, the addition of principal component duration (i.e. level, slope, and curvature sensitivity) 
 gives more useful insight into the portfolio. Finally, the application is flexible and can be tailored to the team's needs.
+
+NOTE: Running the application requires a working Bloomberg terminal
