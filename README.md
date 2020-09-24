@@ -10,7 +10,8 @@ curvature of a yield curve. Users are then able to view the sensitivity of the p
 
 Using three principal components over the traditional key rates yields several benefits. First, multiple key rates are reduced to three orthogonal 
 factors, which can be treated independently. Second, measures like key rate duration of fixed-income security can be easily transformed into principal 
-component duration, by multiplying a vector of key rate durations by factor loading. 
+component duration, by multiplying a vector of key rate durations by factor loading. Three variables are sufficient to explain most of the variation 
+in key rate changes. Factors are traditionally considered level, curviture and slope of a yield curve, explain 79%, 14%, and 5% of the variation.
 
 R Shiny package allows my team to use the application without any prior programming knowledge. While the traditional Bloomberg interface has the 
 option of viewing key rate duration, my application has several advantages. First, the application is significantly faster at simulating new 
